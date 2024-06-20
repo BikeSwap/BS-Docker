@@ -1,0 +1,13 @@
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\domain\service\PostService.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\exception\ControllerExceptionHandler.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\mapper\PostMapper.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\exception\ErrorMessage.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\exception\ValidationException.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\exception\ResourceNotFoundException.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\entity\PostEntity.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\InventoryServiceApplication.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\domain\model\Post.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\service\PostServiceImpl.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\config\Webconfig.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\application\controller\PostController.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\post-service\src\main\java\pe\edu\bikeswap\inventoryservice\domain\repository\PostRepository.java

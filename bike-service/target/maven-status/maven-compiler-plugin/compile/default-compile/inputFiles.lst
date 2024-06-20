@@ -1,0 +1,13 @@
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\service\BikeServiceImpl.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\BikeServiceApplication.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\exception\ErrorMessage.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\domain\repository\BikeRepository.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\domain\model\Bike.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\domain\service\BikeService.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\config\Webconfig.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\exception\ControllerExceptionHandler.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\exception\ValidationException.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\controller\BicycleController.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\exception\ResourceNotFoundException.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\application\mapper\BikeMapper.java
+C:\Users\arnol\Downloads\BS-MicroServices-main\bike-service\src\main\java\pe\edu\bikeswap\bike_service\entity\BikeEntity.java

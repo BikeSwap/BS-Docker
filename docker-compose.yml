@@ -1,0 +1,65 @@
+version: '3'
+services:
+  discovery:
+    image: config-service
+    ports:
+      - 8761:8761
+  gateway:
+    image: api-gateway
+    links:
+      - discovery
+    environment:
+      - EUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+    ports:
+      - 8080:8080
+  user-service:
+    image: user_service
+    environment:
+      - DB_URL=jdbc:jdbc:mysql://localhost:3306/funda
+      - DB_USERNAME=root
+      - DB_PASSWORD=12345678
+      - EUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+      - gateway
+    ports:
+      - 8082:8082
+  bike-service:
+    image: bike-service
+    environment:
+      - DB_URL=jdbc:jdbc:mysql://localhost:3306/funda
+      - DB_USERNAME=root
+      - DB_PASSWORD=12345678
+      - EUREKA_SERVER=http://discovery:8761/eureka
+    restart: on-failure
+    depends_on:
+      - discovery
+      - gateway
+    ports:
+      - 8081:8081
+  post-service:
+    image: post-service
+    environment:
+      - DB_URL=jdbc:jdbc:mysql://localhost:3306/funda
+      - DB_USERNAME=root
+      - DB_PASSWORD=12345678
+      - EUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+      - gateway
+    ports:
+      - 8083:8083
+  reports-service:
+    image: reports-service
+    environment:
+      - DB_URL=jdbc:jdbc:mysql://localhost:3306/funda
+      - DB_USERNAME=root
+      - DB_PASSWORD=12345678
+      - EUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+      - gateway
+    ports:
+      - 8084:8084
